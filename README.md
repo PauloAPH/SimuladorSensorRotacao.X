@@ -1,0 +1,1 @@
+# Simulador do sinal do sensor de rotação utilizando PIC18F4550
