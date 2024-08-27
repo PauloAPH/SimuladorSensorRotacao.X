@@ -1,0 +1,37 @@
+# .gitignore file
+#
+# Set up for Microchip/MPLAB X development
+# MPLAB X .gitignore New File generation
+# 
+# Needs to be located in the project folder
+# project.X/.gitignore
+#
+# John Haroian
+# Greg Mrozek
+#
+# Updated January 18, 2023
+
+# MPLAB X IDE specific
+~*.*
+
+/.vscode/
+/.generated_files/
+/_build_mplab/
+/_build_mplab\SimuladorSensorRotacao/
+/disassembly/
+/out/
+/out\SimuladorSensorRotacao/
+/.generated-cmakefiles/
+/nbproject/private/
+/nbproject/*.mk
+/nbproject/*.bash
+/nbproject/Makefile-genesis.properties
+/nbproject/queuelogs/
+
+# MCC specific
+*mc3.bak*
+
+# Large Files
+*.exe
+*.zip
+*.pdf
